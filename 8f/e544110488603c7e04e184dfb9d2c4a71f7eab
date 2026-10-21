@@ -1,0 +1,19 @@
+support.html
+  s_73562ddba47d61::t_65b4406f37dbc0 39
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "8fe544110488603c7e04e184dfb9d2c4a71f7eab",
+  "prompts": {},
+  "sessions": {
+    "s_73562ddba47d61": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0742eb37-e5b4-42e7-a4e0-b56b6bc7ce10",
+        "model": "claude-sonnet-5-5"
+      },
+      "human_author": "Алексей Чуркин <kweall@mail.ru>"
+    }
+  }
+}
