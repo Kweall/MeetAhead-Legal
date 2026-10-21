@@ -1,0 +1,19 @@
+privacy.html
+  s_73562ddba47d61::t_30e0b60d0f8d08 39,41,45-47,57-58,62-63,69-80,82,85
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "7d65763a479b6ece6b3e0412fa20a9ec3c82dba0",
+  "prompts": {},
+  "sessions": {
+    "s_73562ddba47d61": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0742eb37-e5b4-42e7-a4e0-b56b6bc7ce10",
+        "model": "claude-sonnet-5-5"
+      },
+      "human_author": "Алексей Чуркин <kweall@mail.ru>"
+    }
+  }
+}
