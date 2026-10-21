@@ -53,9 +53,9 @@ MeetAlarm has no servers, no analytics, no advertising, and no third-party track
 
 <h2>Data retention, revoking access, and deletion</h2>
 <ul>
-  <li><strong>What's stored, and for how long.</strong> Your preferences — lead time before meetings, colors, which calendars are tracked, per-meeting alarm overrides — and the information needed to keep your alarms up to date (such as the titles and start times of upcoming meetings, and the date you first opened the app, used to count the free trial) live only in the app's local storage on your device, for as long as you keep the app installed. Like other app data, this local storage is included in your device backups (iCloud or computer) if you use them. We hold nothing on any server, so there is nothing on our end to separately retain or expire.</li>
+  <li><strong>What's stored, and for how long.</strong> Your preferences — lead time before meetings, colors, which calendars are tracked, per-meeting alarm overrides — and the information needed to keep your alarms up to date (such as the titles and start times of upcoming meetings, and the date you first opened the app, used to count the free trial) live only in the app's local storage on your device, for as long as you keep the app installed. Like other app data, this local storage is included in your device backups (iCloud or computer) if you use them. The one exception is the date you first opened the app: it is also kept in your device's Keychain (and syncs through iCloud Keychain if you use it), so that deleting and reinstalling the app does not restart the free trial. It is never sent to us. We hold nothing on any server, so there is nothing on our end to separately retain or expire.</li>
   <li><strong>Revoking Calendar, Alarm, or Notification access.</strong> You can turn off MeetAlarm's access at any time in your device's Settings app: Settings → Privacy &amp; Security → Calendars (or Notifications) → MeetAlarm, and switch access off. Alarm access is switched off on MeetAlarm's own page in Settings (Settings → Apps → MeetAlarm).</li>
-  <li><strong>Deleting your data.</strong> Uninstalling MeetAlarm removes all of its local data (preferences, per-meeting alarm settings, everything) from your device immediately. Since nothing is ever transmitted to us, there is no separate server-side copy to request deletion of — uninstalling is the complete deletion.</li>
+  <li><strong>Deleting your data.</strong> Uninstalling MeetAlarm removes its local data (preferences, per-meeting alarm settings, stored meeting titles) from your device immediately; only the first-opened date described above stays in your Keychain. Since nothing is ever transmitted to us, there is no separate server-side copy to request deletion of.</li>
 </ul>
 
 <h2>Accounts</h2>
@@ -63,7 +63,7 @@ MeetAlarm has no servers, no analytics, no advertising, and no third-party track
 
 <h2>Subscriptions and payment</h2>
 <p>If you choose to subscribe, the purchase is handled entirely by Apple through StoreKit and your Apple ID. We never see your payment details — no card numbers, no billing address, nothing. Apple's own <a href="https://www.apple.com/legal/privacy/">Privacy Policy</a> covers how they process that transaction.</p>
-<p>To find out whether you are subscribed or still in the free trial, the app asks the App Store on your device (through StoreKit), including for the date your Apple ID first downloaded MeetAlarm, so that deleting and reinstalling the app does not restart the trial. This exchange takes place between your device and Apple; nothing from it is sent to us.</p>
+<p>To find out whether you are subscribed, the app asks the App Store on your device (through StoreKit). This exchange takes place between your device and Apple; nothing from it is sent to us. The free trial itself is counted on your device from the day you first opened the app (see above).</p>
 
 <h2>Changes to this policy</h2>
 <p>If this policy ever changes, the updated version will be posted on this same page with a new "Last updated" date.</p>
