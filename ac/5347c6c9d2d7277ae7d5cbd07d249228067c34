@@ -1,0 +1,21 @@
+privacy.html
+  s_5ce9e298d3d07b::t_103019ae73e090 6,38-39,41,45-48,52,57-59,63,76,85
+support.html
+  s_5ce9e298d3d07b::t_8c08322bcfdc1b 6,31-32,36-39
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "ac5347c6c9d2d7277ae7d5cbd07d249228067c34",
+  "prompts": {},
+  "sessions": {
+    "s_5ce9e298d3d07b": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "6ec4ed03-27fb-4b01-8d9e-55fd7cceba40",
+        "model": "claude-sonnet-5-5"
+      },
+      "human_author": "Алексей Чуркин <kweall@mail.ru>"
+    }
+  }
+}
